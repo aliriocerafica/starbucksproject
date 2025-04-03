@@ -83,47 +83,48 @@ export default function LoginForm() {
 
           {/* Submit Button */}
           <div className="flex justify-center">
-            <button
-              type="submit"
-              className="w-46 text-center p-3 bg-[#00704A] text-white rounded-full hover:bg-white border-2 border-[#00704A] hover:text-[#00704A] transition duration-300 ease-in-out"
-            >
-              {isSignup ? "Sign Up" : "Log In"}
-            </button>
-          </div>
- {/* Forgot Password (Login Only) */}
- {!isSignup && (
+  <Link href="/main">
+    <button
+      type="submit"
+      className="w-46 text-center p-3 bg-[#00704A] text-white rounded-full hover:bg-white border-2 border-[#00704A] hover:text-[#00704A] transition duration-300 ease-in-out"
+    >
+      {isSignup ? "Sign Up" : "Log In"}
+    </button>
+  </Link>
+</div>
+
+          {/* Forgot Password (Login Only) */}
+          {!isSignup && (
             <Link href="/forgotpassword" className="text-black text-sm font-md hover:underline text-center block mt-4">
               Forgot Password?
             </Link>
           )}
+
           {/* Toggle between Sign-Up and Log-In */}
           <p className="text-center mt-4">
-  {isSignup ? (
-   <>
-  <span className="text-gray-500">Already have an account? </span>
-  <span
-    className="text-blue-500 cursor-pointer"
-    onClick={handleLoginClick}
-  >
-    Log In
-  </span>
+            {isSignup ? (
+              <>
+                <span className="text-gray-500">Already have an account? </span>
+                <span
+                  className="text-blue-500 cursor-pointer"
+                  onClick={handleLoginClick}
+                >
+                  Log In
+                </span>
+              </>
+            ) : (
+              <>
+                <span className="text-gray-500">Don't have an account? </span>
+                <span
+                  className="text-blue-500 cursor-pointer"
+                  onClick={handleSignupClick}
+                >
+                  Sign Up
+                </span>
+              </>
+            )}
+          </p>
 
-
-    </>
-  ) : (
-    <>
-      <span className="text-gray-500">Don't have an account? </span>
-      <span
-        className="text-blue-500 cursor-pointer"
-        onClick={handleSignupClick}
-      >
-        Sign Up
-      </span>
-    </>
-  )}
-</p>
-
-         
         </form>
       </div>
     </div>
