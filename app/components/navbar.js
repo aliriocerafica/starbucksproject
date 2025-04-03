@@ -20,8 +20,8 @@ export default function Navbar() {
 
       {/* Center Links */}
       <div className="flex space-x-6">
-        <Link href="/" className="text-gray-800 hover:text-green-600">Home</Link>
-        <Link href="/about" className="text-gray-800 hover:text-green-600">About</Link>
+        <Link href="/main" className="text-gray-800 hover:text-green-600">Home</Link>
+        <Link href="/home" className="text-gray-800 hover:text-green-600">About</Link>
         <Link href="/menu" className="text-gray-800 hover:text-green-600">Menu</Link>
         <Link href="/menu" className="text-gray-800 hover:text-green-600">Contact</Link>
       </div>
