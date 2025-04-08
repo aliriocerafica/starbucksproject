@@ -10,15 +10,15 @@ export default function Cart() {
   const [cartItems, setCartItems] = useState([
     {
       id: 1,
-      name: "Espresso",
-      price: 19.99,
+      name: "Green Tea Latte",
+      price: 110,
       image: "/img/green1.png",
       quantity: 1,
     },
     {
       id: 2,
-      name: "Lemon Iced Tea",
-      price: 19.99,
+      name: "Green Tea Latte",
+      price: 110,
       image: "/img/green1.png",
       quantity: 1,
     },

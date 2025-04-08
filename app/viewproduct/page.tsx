@@ -30,7 +30,7 @@ export default function ProductView() {
       >
         <ChevronLeftIcon className="h-6 w-6" />
       </button>
-      <h2 className="text-xl font-bold text-[#00704A] ml-4">Espresso</h2>
+      <h2 className="text-xl font-bold text-[#00704A] ml-4">Caramel Macchiato</h2>
      
     </div>
 
@@ -51,9 +51,9 @@ export default function ProductView() {
                     </div>
 
                     {/* Product Description */}
-                    <h3 className="text-2xl font-bold text-black mb-4">Espresso</h3>
+                    <h3 className="text-2xl font-bold text-black mb-4">Green Tea Latte</h3>
                     <p className="text-md text-gray-500 mb-6">
-                        A strong and bold espresso made with premium beans for that energizing start to your day.
+                    Smooth and creamy matcha sweetened just right and served with steamed milk.
                     </p>
 
                     {/* Quantity Adjust */}
@@ -72,7 +72,7 @@ export default function ProductView() {
                         >
                             +
                         </button>
-                        <span className="text-lg text-gray-600 ml-4">Total Price: ₱{(19.99 * quantity).toFixed(2)}</span>
+                        <span className="text-lg text-gray-600 ml-4">Total Price: ₱{(110 * quantity).toFixed(2)}</span>
                     </div>
 
                     {/* Size Selection */}

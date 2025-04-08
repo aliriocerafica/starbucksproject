@@ -68,19 +68,19 @@ export default function ColdCoffee() {
                     <div className="bg-white p-4 rounded-lg shadow-lg">
                         <div className="flex justify-center mb-4">
                             <Image
-                                src="/img/caramel1.png"
+                                src="/img/caramel2.png"
                                 alt="Cold Coffee Product"
                                 width={250}
                                 height={250}
                                 className="object-cover"
                             />
                         </div>
-                        <h3 className="text-left text-md font-bold text-black mb-2">Cold Brew Coffee</h3>
+                        <h3 className="text-left text-md font-bold text-black mb-2">Iced Caramel Macchiato</h3>
                         <p className="text-left text-sm text-gray-500 mb-4">
-                            A smooth and chilled cold brew coffee perfect for hot days.
+                        Our signature espresso, vanilla syrup, milk and caramel drizzle over ice.
                         </p>
                         <div className="flex justify-between items-center">
-                            <span className="text-md font-semibold text-[#00704A]">₱29.99</span>
+                            <span className="text-md font-semibold text-[#00704A]">₱160</span>
                             <div className="flex space-x-4">
                                 <Link
                                     href="/cart"

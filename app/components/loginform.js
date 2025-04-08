@@ -2,6 +2,8 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
+
 
 // LoginForm component
 export default function LoginForm() {
@@ -13,6 +15,30 @@ export default function LoginForm() {
 
   const handleLoginClick = () => {
     setIsSignup(false); // Show login form
+  };
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      const res = await fetch("/api/users", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ email, password, type: "login" }),
+      });
+
+      const data = await res.json();
+
+      if (res.ok) {
+        router.push("/home");
+      } else {
+        alert(data.message || "Login failed.");
+      }
+    } catch (error) {
+      console.error(error);
+      alert("Something went wrong.");
+    }
   };
 
   return (
@@ -83,7 +109,7 @@ export default function LoginForm() {
 
           {/* Submit Button */}
           <div className="flex justify-center">
-  <Link href="/main">
+  <Link href="/home">
     <button
       type="submit"
       className="w-46 text-center p-3 bg-[#00704A] text-white rounded-full hover:bg-white border-2 border-[#00704A] hover:text-[#00704A] transition duration-300 ease-in-out"

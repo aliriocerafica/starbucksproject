@@ -76,12 +76,12 @@ export default function Tea() {
                 className="object-cover"
               />
             </div>
-            <h3 className="text-left text-md font-bold text-black mb-2">Lemon Iced Tea</h3>
+            <h3 className="text-left text-md font-bold text-black mb-2">Green Tea Latte</h3>
             <p className="text-left text-sm text-gray-500 mb-4">
-              A refreshing iced tea with a zesty lemon twist.
+            Smooth and creamy matcha sweetened just right and served with steamed milk.
             </p>
             <div className="flex justify-between items-center">
-              <span className="text-md font-semibold text-[#00704A]">₱19.99</span>
+              <span className="text-md font-semibold text-[#00704A]">₱110</span>
               <div className="flex space-x-4">
                                 <Link
                                     href="/cart"

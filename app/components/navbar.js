@@ -31,7 +31,7 @@ export default function Navbar() {
         <User className="w-6 h-6 text-gray-800 cursor-pointer hover:text-green-600" onClick={toggleDropdown} />
         {isDropdownOpen && (
           <div className="absolute right-0 mt-2 w-50 bg-white rounded-md shadow-lg">
-            <Link href="/orders" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 flex items-center">
+            <Link href="/cart" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 flex items-center">
               <ShoppingCart className="w-4 h-4 mr-2" /> Orders
             </Link>
             <Link href="/profile" className="block px-4 py-2 text-gray-800 hover:bg-gray-100 flex items-center">

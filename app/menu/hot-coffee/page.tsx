@@ -71,19 +71,19 @@ export default function HotCoffee() {
           <div className="bg-white p-4 rounded-lg shadow-lg">
             <div className="flex justify-center mb-4">
               <Image
-                src="/img/green1.png"
+                src="/img/caramel1.png"
                 alt="Hot Coffee Product 1"
                 width={250}
                 height={250}
                 className="object-cover"
               />
             </div>
-            <h3 className="text-left text-md font-bold text-black mb-2">Espresso</h3>
+            <h3 className="text-left text-md font-bold text-black mb-2">Caramel Macchiato</h3>
             <p className="text-left text-sm text-gray-500 mb-4">
-              A strong and bold espresso made with premium beans.
+            Freshly steamed milk with vanilla-flavored syrup marked with espresso and caramel drizzle.
             </p>
             <div className="flex justify-between items-center">
-              <span className="text-md font-semibold text-[#00704A]">₱19.99</span>
+              <span className="text-md font-semibold text-[#00704A]">₱145</span>
               
               {/* Redirect to Cart page when "Add to Cart" is clicked */}
               <div className="flex space-x-4">

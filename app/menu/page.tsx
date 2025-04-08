@@ -77,12 +77,12 @@ export default function Menu() {
                                 className="object-cover"
                             />
                         </div>
-                        <h3 className="text-left text-md font-bold text-black mb-2">Product Name 1</h3>
+                        <h3 className="text-left text-md font-bold text-black mb-2"> Green Tea Latte</h3>
                         <p className="text-left text-sm  text-gray-500 mb-4">
-                            A short description of the product goes here. It gives customers an idea of what it is.
+                        Smooth and creamy matcha sweetened just right and served with steamed milk.
                         </p>
                         <div className="flex justify-between items-center">
-                            <span className="text-md font-semibold text-[#00704A]">₱19.99</span> {/* Updated currency to Peso */}
+                            <span className="text-md font-semibold text-[#00704A]">₱110</span> {/* Updated currency to Peso */}
                             <div className="flex space-x-4">
                                 <Link
                                     href="/cart"
@@ -111,12 +111,12 @@ export default function Menu() {
                                 className="object-cover"
                             />
                         </div>
-                        <h3 className="text-left text-md font-bold text-black mb-2">Product Name 2</h3>
+                        <h3 className="text-left text-md font-bold text-black mb-2">Iced Caramel Macchiato</h3>
                         <p className="text-left text-sm  text-gray-500 mb-4">
-                            A short description of the product goes here. It gives customers an idea of what it is.
+                        Our signature espresso, vanilla syrup, milk and caramel drizzle over ice.
                         </p>
                         <div className="flex justify-between items-center">
-                            <span className="text-md font-semibold text-[#00704A]">₱24.99</span> {/* Updated currency to Peso */}
+                            <span className="text-md font-semibold text-[#00704A]">₱160</span> {/* Updated currency to Peso */}
                             <div className="flex space-x-4">
                                 <Link
                                     href="/cart"
@@ -138,19 +138,19 @@ export default function Menu() {
                     <div className="bg-white p-4 rounded-lg shadow-lg">
                         <div className="flex justify-center mb-4">
                             <Image
-                                src="/img/capuccino1.png"
+                                src="/img/caramel1.png"
                                 alt="Product 3"
-                                width={150}
-                                height={150}
+                                width={250}
+                                height={250}
                                 className="object-cover"
                             />
                         </div>
-                        <h3 className="text-left text-md font-bold text-black mb-2">Product Name 3</h3>
+                        <h3 className="text-left text-md font-bold text-black mb-2">Caramel Macchiato</h3>
                         <p className="text-left text-sm  text-gray-500 mb-4">
-                            A short description of the product goes here. It gives customers an idea of what it is.
+                        Freshly steamed milk with vanilla-flavored syrup marked with espresso and caramel drizzle.
                         </p>
                         <div className="flex justify-between items-center">
-                            <span className="text-md font-semibold text-[#00704A]">₱29.99</span> {/* Updated currency to Peso */}
+                            <span className="text-md font-semibold text-[#00704A]">₱145</span> {/* Updated currency to Peso */}
                             <div className="flex space-x-4">
                                 <Link
                                     href="/cart"
@@ -172,19 +172,19 @@ export default function Menu() {
                     <div className="bg-white p-4 rounded-lg shadow-lg">
                         <div className="flex justify-center mb-4">
                             <Image
-                                src="/img/caramel1.png"
+                                src="/img/capuccino1.png"
                                 alt="Product 4"
-                                width={250}
-                                height={250}
+                                width={150}
+                                height={150}
                                 className="object-cover"
                             />
                         </div>
-                        <h3 className="text-left text-md font-bold text-black mb-2">Product Name 4</h3>
+                        <h3 className="text-left text-md font-bold text-black mb-2">Capuccino</h3>
                         <p className="text-left text-sm  text-gray-500 mb-4">
-                            A short description of the product goes here. It gives customers an idea of what it is.
+                        Dark, rich espresso lies in wait under a smoothed and stretched layer of thick milk foam.
                         </p>
                         <div className="flex justify-between items-center">
-                            <span className="text-md font-semibold text-[#00704A]">₱34.99</span> {/* Updated currency to Peso */}
+                            <span className="text-md font-semibold text-[#00704A]">₱145</span> {/* Updated currency to Peso */}
                             <div className="flex space-x-4">
                                 <Link
                                     href="/cart"
