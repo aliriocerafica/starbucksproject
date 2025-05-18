@@ -23,14 +23,14 @@ export default function ProductView() {
             <Navbar />
 
             {/* Back Button */}
-            <div className="flex items-center p-4 pt-16">
+            <div className="flex items-center p-4 pt-24">
       <button 
         onClick={() => router.back()} 
         className="text-[#00704A] hover:text-[#004c2d] transition duration-300 ease-in-out text-3xl"
       >
         <ChevronLeftIcon className="h-6 w-6" />
       </button>
-      <h2 className="text-xl font-bold text-[#00704A] ml-4">Caramel Macchiato</h2>
+      <h2 className="text-xl font-bold text-[#00704A] ml-4">Green Tea Latte</h2>
      
     </div>
 

@@ -9,27 +9,28 @@ export default function Home() {
             <Navbar />
 
             {/* Jumbotron Section */}
-            <div className="relative h-[640px] w-full flex justify-center items-center text-center">
-                <div className="flex w-full h-full">
-                    {/* Left Column - 30% */}
-                    <div className="w-2/3 flex flex-col justify-center items-start text-black mx-auto">
-                        <h1 className="text-6xl font-bold text-black text-left mt-24 md:mb-6 lg:mb-8 ml-8 lg:ml-32">
-                            Start a day with the best  <span className="text-[#00704A]">Starbucks</span>
-                        </h1>
-                        <p className="text-xl mb-6 text-black text-left mb-4 md:mb-6 lg:mb-8 ml-8 lg:ml-32">
-                            Start your morning with our expertly crafted beverages, made from the finest 
-                            coffee beans. Whether you prefer a rich espresso, a creamy latte, or a refreshing 
-                            cold brew, Starbucks offers the perfect cup to fuel your day. Pair it with our 
-                            delicious pastries or breakfast options for a complete experience that keeps you 
-                            energized and ready to conquer anything.
-                        </p>
-                        <Link
-                            href="/menu"
-                            className="bg-[#00704A] text-white text-left px-6 py-3 rounded-full text-lg hover:bg-[#004c2d] transition duration-300 ease-in-out ml-8 lg:ml-32"
-                        >
-                            Order Now
-                        </Link>
-                    </div>
+            <div className="relative w-full flex flex-col md:flex-row justify-center items-center text-center md:text-left px-6 md:px-12 lg:px-32 py-12">
+                
+               
+                {/* Left Column - Text (Moves below image on small screens) */}
+                <div className="w-full md:w-1/2 flex flex-col justify-center items-center md:items-start">
+                    <h1 className="text-4xl md:text-6xl font-bold text-black">
+                        Start a day with the best <span className="text-[#00704A]">Starbucks</span>
+                    </h1>
+                    <p className="text-lg md:text-xl text-black mt-4 md:mt-6 max-w-lg">
+                        Start your morning with our expertly crafted beverages, made from the finest 
+                        coffee beans. Whether you prefer a rich espresso, a creamy latte, or a refreshing 
+                        cold brew, Starbucks offers the perfect cup to fuel your day. Pair it with our 
+                        delicious pastries or breakfast options for a complete experience that keeps you 
+                        energized and ready to conquer anything.
+                    </p>
+                    <Link
+                        href="/menu"
+                        className="mt-6 bg-[#00704A] text-white px-6 py-3 rounded-full text-lg hover:bg-[#004c2d] transition duration-300"
+                    >
+                        Order Now
+                    </Link>
+                </div>
 
                     {/* Right Column - 70% */}
                     <div className="w-2/3 flex items-center justify-center">
@@ -44,6 +45,6 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-        </div>
+        
     );
 }
